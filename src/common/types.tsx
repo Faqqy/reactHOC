@@ -1,9 +1,12 @@
-export interface IVideoProps {
-    date?: string,
-    url?: string,
-    list?: any,
-    item?: any,
-    frameborder?: number,
-    allowfullscreen?: boolean
+export interface Ilist {
+    url: string,
+    date: string
 }
-
+  
+ export interface IProps { 
+    list: list[]
+}
+  
+export interface IDateTimeProps {
+    date: string
+}
